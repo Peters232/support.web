@@ -1,0 +1,103 @@
+/* Basic Styles */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f4f4f4;
+
+}
+
+header {
+
+    text-align: center;
+
+    background-color: #1a73e8;
+
+    padding: 20px;
+
+    color: white;
+
+}
+
+.support-section {
+
+    padding: 20px;
+
+}
+
+.chatbox {
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+}
+
+.chatbox-messages {
+
+    height: 200px;
+
+    overflow-y: scroll;
+
+    border: 1px solid #ddd;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    background-color: #f9f9f9;
+
+}
+
+input {
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 4px;
+
+    border: 1px solid #ccc;
+
+}
+
+button {
+
+    padding: 10px;
+
+    background-color: #1a73e8;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+
+    background-color: #155aa8;
+
+}
+
+.hidden {
+
+    display: none;
+
+}
